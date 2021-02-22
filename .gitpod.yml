@@ -1,0 +1,6 @@
+ports:
+  - port: 8080
+    onOpen: notify
+
+tasks:
+  - init: yarn
